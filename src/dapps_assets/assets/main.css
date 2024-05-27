@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(35, 35, 50);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main{
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.box{
+    border: 1px solid rgb(54, 54, 66);
+    border-radius: 15px;
+    background-color: rgb(54, 54, 66);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 30px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.box .head{
+    color: whitesmoke;
+    margin: 0px;
+    font-size: 15px;
+}
+.box .para{
+    color: whitesmoke;
+    font-size: 20px;
+    margin: 0px;
+    border-bottom: 4px solid rgb(65, 124, 170);
+    border-radius: 10px;
+    padding: 10px;
+}
+.box .input{
+    margin-bottom: 15px;
+    height: 20px;
+    width: 100%;
+}
+.box .btn{
+    width: 100%;
+    height: 35px;
+    font-weight: 600;
+    font-size: 15px;
+    color: whitesmoke;
+    background-color: rgb(65, 124, 170);
+    border: 1px solid rgb(65, 124, 170);
+    border-radius: 5px;
+}
